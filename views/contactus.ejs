@@ -1,0 +1,82 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us </title>
+    <link rel="shortcut icon" type="image/jpg" href="/images/news2.png"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+    </style>
+    <link rel="stylesheet" href="/styles/contactusstyle.css">
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="contactInfo"> 
+                    <div>
+                        <h2>Tripola</h2>
+                        <ul class="info">
+                            <li>
+                               <span><ion-icon name="location-outline" ></span>
+                                <span>G185, Cover Towers,<br>
+                                    Bengaluru<br>
+                                  </span>
+                                </span>
+                            </li>
+                            <li>
+                                <span><ion-icon name="mail-outline"></span>
+                                <!-- <span>nassosanagn@gmail.com</span> -->
+                                <span><a href = "mailto: ustripola@gmail.com">ustripola@gmail.com</a></span>
+                            </li>
+                            <li>
+                              <span><ion-icon name="call-outline"></span>
+                                <span>702-279-3488</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    
+                </div>
+                    <form class="contactForm" method="post" action="/contact">
+                        <h2>Send a Message</h2>
+                        <div class="formBox">
+                        <div class="inputBox w50">
+                            <input name="username" type="text" name="" required>
+                            <span>First Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" required>
+                            <span>Last Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input name="email" type="email" required>
+                            <span>Email Address</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input name="mob" type="text" required>
+                            <span>Mobile Number</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <textarea required></textarea>
+                            <span>Write your message here...</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <input type="submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+                    
+                    
+             
+        </section>
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
